@@ -5,8 +5,10 @@ int main(){
 	printf("Pleasse input first number:");
 	scanf ("%f",&a);
 	float b;
+    printf("Pleasse input second number:");
 	scanf ("%f",&b);
 	float c;
+	printf("Pleasse input third number:");
 	scanf ("%f",&c);
 	if((a+b>c)&&(b+c>a)&&(c+a>b)){
 		float p= (a+b+c)/2;
